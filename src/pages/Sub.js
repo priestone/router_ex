@@ -11,7 +11,7 @@ const Section = styled.div`
 const Bg = styled.div`
   width: 50%;
   height: 700px;
-  background: #808080 url() no-repeat center / cover;
+  background: #808080 url(${(props) => props.$bgImg}) no-repeat center / cover;
 `;
 const Container = styled.div`
   width: 45%;
